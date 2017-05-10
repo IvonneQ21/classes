@@ -69,8 +69,8 @@ class Person {
 }
 
 class Programmer extends Person {
-  constructor(age, name) {
-    super(age, name);
+  constructor(name, age) {
+    super(name, age);
     this.canCode = true;
   }
 
